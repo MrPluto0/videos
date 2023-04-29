@@ -11,7 +11,7 @@ const jump = (type: string) => {
 }
 
 onMounted(async () => {
-  // intros.value = await getIntros()
+  intros.value = await getIntros()
 })
 </script>
 
